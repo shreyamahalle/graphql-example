@@ -40,14 +40,14 @@ src/
    cd spring-boot-graphql-example
 ```
 2. **Run the application**
-   ```
+```
    ./mvnw spring-boot:run
-   ```
+```
 3. **Access GraphiQL UI**
     Open in browser:
-  ```
+```
    http://localhost:8080/graphiql
-  ```
+```
 📑 GraphQL Schema (schema.graphqls)
 ```
 type Query {
