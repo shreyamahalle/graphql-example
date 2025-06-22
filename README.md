@@ -28,7 +28,7 @@ src/
 │ ├── application.yml
 │ └── graphql/
 │ └── schema.graphqls
-
+```
 ---
 
 ## ⚙️ Setup Instructions
