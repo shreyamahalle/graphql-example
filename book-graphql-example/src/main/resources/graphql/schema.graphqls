@@ -14,13 +14,14 @@ type Author {
   firstName: String
   lastName: String
 }
-type Mutation{
-addBook(book : BookInput!): Book
+
+type Mutation {
+  addBook(book: BookInput!): Book
 }
 
-input BookInput{
-id: Id
-name:String
-pageCount: Int
-authorId : Int
+input BookInput {
+  id: ID
+  name: String
+  pageCount: Int
+  authorId: Int
 }
