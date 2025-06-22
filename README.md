@@ -36,17 +36,17 @@ src/
 1. **Clone the repo**
 
 ```bash
-git clone https://github.com/shreyamahalle/spring-boot-graphql-example.git
-cd spring-boot-graphql-example
+   git clone https://github.com/shreyamahalle/spring-boot-graphql-example.git
+   cd spring-boot-graphql-example
 ```
 2. **Run the application**
-   ```
-   ./mvnw spring-boot:run
-   ```
-3. **Access GraphiQL UI**
- Open in browser:
 ```
-http://localhost:8080/graphiql
+   ./mvnw spring-boot:run
+```
+3. **Access GraphiQL UI**
+    Open in browser:
+```
+   http://localhost:8080/graphiql
 ```
 📑 GraphQL Schema (schema.graphqls)
 ```
