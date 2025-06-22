@@ -30,8 +30,8 @@ public class BookController {
         return bookService.getById(id);
     }
 
-//    @MutationMapping
-//    public Book addBook(@Argument Book book) {
-//        return bookService.getById();
-//    }
+    @MutationMapping
+    public Book addBook(@Argument Book book) {
+        return bookService.addBook(book);
+    }
 }
