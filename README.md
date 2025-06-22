@@ -38,5 +38,46 @@ src/
 ```bash
 git clone https://github.com/shreyamahalle/spring-boot-graphql-example.git
 cd spring-boot-graphql-example
-Run the application
+```
+2. **Run the application**
+   ```
+   ./mvnw spring-boot:run
+   ```
+3. **Access GraphiQL UI**
+ Open in browser:
+```
+http://localhost:8080/graphiql
+```
+📑 GraphQL Schema (schema.graphqls)
+```
+type Query {
+  bookById(id: ID): Book
+}
+
+type Book {
+  id: ID
+  name: String
+  pageCount: Int
+  author: Author
+}
+
+type Author {
+  id: ID
+  firstName: String
+  lastName: String
+}
+```
+ Example Queries
+ ```
+ query {
+  bookById(id: "1") {
+    id
+    name
+    pageCount
+    author {
+      firstName
+      lastName
+    }
+  }
+}
 ```
